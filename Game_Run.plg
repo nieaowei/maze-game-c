@@ -1,0 +1,92 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Game_Run - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/Script3.res" /d "NDEBUG" "\\MAC\HOME\Desktop\新建文件夹\MAZEGAME的副本\MAZEGAME\Script3.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP211.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/Game_Run.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"\\Mac\Home\Desktop\新建文件夹\MAZEGAME的副本\MAZEGAME\Game_Core.c"
+"\\Mac\Home\Desktop\新建文件夹\MAZEGAME的副本\MAZEGAME\Game_Function.c"
+"\\Mac\Home\Desktop\新建文件夹\MAZEGAME的副本\MAZEGAME\Game_Run.c"
+"\\Mac\Home\Desktop\新建文件夹\MAZEGAME的副本\MAZEGAME\Game_Start.c"
+"\\Mac\Home\Desktop\新建文件夹\MAZEGAME的副本\MAZEGAME\Random.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP211.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP212.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/Game_Run.pdb" /machine:I386 /out:"Release/Game_Run.exe" 
+".\Release\Game_Core.obj"
+".\Release\Game_Function.obj"
+".\Release\Game_Run.obj"
+".\Release\Game_Start.obj"
+".\Release\Random.obj"
+".\Release\Script3.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP212.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Game_Core.c
+\\Mac\Home\Desktop\新建文件夹\MAZEGAME的副本\MAZEGAME\Game_Core.c(33) : warning C4013: 'Main' undefined; assuming extern returning int
+Game_Function.c
+Game_Run.c
+Game_Start.c
+Random.c
+Linking...
+
+
+
+<h3>Results</h3>
+Game_Run.exe - 0 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: Game_Run - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Script3.res" /d "_DEBUG" "\\MAC\HOME\Desktop\新建文件夹\MAZEGAME的副本\MAZEGAME\Script3.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP214.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/Game_Run.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"\\Mac\Home\Desktop\新建文件夹\MAZEGAME的副本\MAZEGAME\Game_Core.c"
+"\\Mac\Home\Desktop\新建文件夹\MAZEGAME的副本\MAZEGAME\Game_Function.c"
+"\\Mac\Home\Desktop\新建文件夹\MAZEGAME的副本\MAZEGAME\Game_Run.c"
+"\\Mac\Home\Desktop\新建文件夹\MAZEGAME的副本\MAZEGAME\Game_Start.c"
+"\\Mac\Home\Desktop\新建文件夹\MAZEGAME的副本\MAZEGAME\Random.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP214.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP215.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Game_Run.pdb" /debug /machine:I386 /out:"Debug/Game_Run.exe" /pdbtype:sept 
+".\Debug\Game_Core.obj"
+".\Debug\Game_Function.obj"
+".\Debug\Game_Run.obj"
+".\Debug\Game_Start.obj"
+".\Debug\Random.obj"
+".\Debug\Script3.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP215.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Game_Core.c
+\\mac\home\desktop\新建文件夹\mazegame的副本\mazegame\game_core.c(33) : warning C4013: 'Main' undefined; assuming extern returning int
+Game_Function.c
+Game_Run.c
+Game_Start.c
+Random.c
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/Game_Run.bsc"  ".\Debug\Game_Core.sbr" ".\Debug\Game_Function.sbr" ".\Debug\Game_Run.sbr" ".\Debug\Game_Start.sbr" ".\Debug\Random.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Game_Run.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
